@@ -60,8 +60,55 @@
     right:-140px;
     top:0px;
     }
-    section img {
-        width:200px;
-        height: 250px;
-        display: block;
-        margin: 5px auto;}
+
+    section{
+        position: absolute;
+        height:200px;
+        width:250px;
+        margin-top:0px;
+        margin-left: 385px;
+        transition-property:height, widht;
+        transition-duration: 1s;
+        transition-delay: 5s,6s;
+    }
+
+        .f1:hover{
+            position: absolute;
+            width:190px;
+            height: 240px;    
+            background-color:#00FF00;
+        }
+    footer{
+            position: absolute;
+            height:200px;
+            width:250px;
+            margin-top:0px;
+            margin-left:590px;
+            transition-property:height, widht;
+            transition-duration: 1s;
+            transition-delay: 5s,6s;
+        }
+    
+            .f2:hover{
+                position: absolute;
+                width:190px;
+                height: 240px;    
+                background-color:#00FF00;
+            }
+            main{
+                position: absolute;
+                height:200px;
+                width:250px;
+                margin-top:0px;
+                margin-left:800px;
+                transition-property:height, widht;
+                transition-duration: 1s;
+                transition-delay: 5s,6s;
+            }
+        
+                .f3:hover{
+                    position: absolute;
+                    width:190px;
+                    height: 240px;    
+                    background-color:#00FF00;
+                }
