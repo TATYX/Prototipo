@@ -60,55 +60,24 @@
     right:-140px;
     top:0px;
     }
-
-    section{
-        position: absolute;
-        height:200px;
-        width:250px;
-        margin-top:0px;
-        margin-left: 385px;
-        transition-property:height, widht;
-        transition-duration: 1s;
-        transition-delay: 5s,6s;
+    header ul li{
+        position: relative;
+        margin-left: 20px;
+        width:200px;
+        height: 250px;
+        overflow: hidden;
+        display: inline-block;
     }
 
-        .f1:hover{
-            position: absolute;
-            width:190px;
-            height: 240px;    
-            background-color:#00FF00;
-        }
-    footer{
-            position: absolute;
-            height:200px;
-            width:250px;
-            margin-top:0px;
-            margin-left:590px;
-            transition-property:height, widht;
-            transition-duration: 1s;
-            transition-delay: 5s,6s;
-        }
-    
-            .f2:hover{
-                position: absolute;
-                width:190px;
-                height: 240px;    
-                background-color:#00FF00;
-            }
-            main{
-                position: absolute;
-                height:200px;
-                width:250px;
-                margin-top:0px;
-                margin-left:800px;
-                transition-property:height, widht;
-                transition-duration: 1s;
-                transition-delay: 5s,6s;
-            }
-        
-                .f3:hover{
-                    position: absolute;
-                    width:190px;
-                    height: 240px;    
-                    background-color:#00FF00;
-                }
+    header ul li img{
+        width:200px;
+        height: 250px;
+        transform: scale(1.0) rotate(0deg);
+        transition-delay: 0.5s;
+        transition-property: transform;
+        transition-duration: 2s;
+    }
+    header ul li img:hover{
+        transform: scale(1.2) rotate(200deg);
+     
+    }
