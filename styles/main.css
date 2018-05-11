@@ -2,10 +2,8 @@
     margin: 0px;
     padding: 0;
    }
-   .containermenu{
-    background-color: #03A9F4;
-    text-align: left;
-   }
+   
+   
    
    h1 {
    background-color:#CCCCCC;
@@ -14,9 +12,16 @@
    font-family:Algerian;
    font-size: 45px;
    color: #000099;
+   border-radius:10px;
    text-decoration: none;
    }
    
+   .section{
+    position: absolute;
+        width: 1422px;
+        height: 930px;
+        background:pink;
+   }
     .header {
     width:500px;
     font-family:Arial, Helvetica, sans-serif;
@@ -34,8 +39,10 @@
     background-color:#000099;
     color:#fff;
     text-decoration:none;
-    padding:10px 12px;
+    padding:14px 30px;
     display:block;
+   border-radius: 10px;
+
     }
     
     .nav li a:hover {
@@ -45,7 +52,7 @@
     .nav li ul {
     display:none;
     position:absolute;
-    min-width:140px;
+    min-width:130px;
     }
     
     .nav li:hover > ul {
@@ -57,12 +64,18 @@
     }
     
     .nav li ul li ul {
-    right:-140px;
+    right:-130px;
     top:0px;
     }
+    
+   
+
+    
     header ul li{
         position: relative;
-        margin-left: 20px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        margin-top: 40px;
         width:200px;
         height: 250px;
         overflow: hidden;
@@ -76,8 +89,14 @@
         transition-delay: 0.5s;
         transition-property: transform;
         transition-duration: 2s;
+        border-radius: 0px;
+     
+         
     }
     header ul li img:hover{
         transform: scale(1.2) rotate(200deg);
+        border-radius: 70px;
+ 
+        
      
     }
