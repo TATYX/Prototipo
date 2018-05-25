@@ -9,7 +9,7 @@
    padding: 22px ;
    font-family:Algerian;
    font-size: 45px;
-   color: #000099;
+   color: #0000FF;
    border-radius:10px;
    text-decoration: none;
    }
@@ -60,15 +60,10 @@
     .nav li ul li {
     position:relative;
     }
-    
     .nav li ul li ul {
     right:-130px;
     top:0px;
     }
-    
-   
-
-    
     header ul li{
         position: relative;
         margin-left: 80px;
@@ -87,14 +82,81 @@
         transition-delay: 0.5s;
         transition-property: transform;
         transition-duration: 2s;
-        border-radius: 0px;
-     
-         
+        border-radius: 0px;    
     }
     header ul li img:hover{
         transform: scale(1.2) ;
         border-radius: 70px;
- 
-        
-     
     }
+ /* ****** */
+ .cpaccion>img {
+width: 1450px;
+height: 230px;
+float: left;
+  }
+    .cpaccionimagen:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;}
+
+  
+ .cpaccion>h4{
+    background:#CCCCCC;
+    text-align:center;
+    padding: 22px ;
+    font-family:Algerian;
+    font-size: 45px;
+    color: #0000FF;
+    text-decoration: none;
+    }
+  .des{
+    width: 1450px;
+    height: 50px;
+    background: #000099;
+    color: #ffffff;
+    font-family:stencil;
+    font-size: 20px;
+    text-align:left;
+    float: left;
+  }
+
+
+  .video-responsive{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    height: 10000%;
+    width: 500px;
+    padding-block-end: 20%;
+    }
+    .video-responsive iframe{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    }
+    .video-responsive object,
+    .video-responsive embed {
+    position: absolute;
+    }
+    
+    
+    
+  .ext{
+    width: 1450px;
+    height: 70px;
+    background: #000099;
+    margin-top: 200px;
+    color: #ffffff;
+    font-family:stencil;
+    font-size: 20px;
+    text-align:left;
+    float: left;
+  }
+
+  
+  
+ 
