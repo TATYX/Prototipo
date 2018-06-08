@@ -70,7 +70,7 @@
         }
         
         .in li a {
-        font:bold 12px Arial black;
+        font-family:bold 80% monospace;
         color:#FFF;
         text-decoration:none;
         }
@@ -83,30 +83,7 @@
         .inicio {
           z-index: 1;
         }
-    /* header section article{
-      position: relative;
-        margin-left: 20px;
-        margin-bottom: 40px;
-        margin-top: 20px;
-        width:250px;
-        height:350px;
-        display: inline-block;
-        background-color: blue;
-
-    }
-
-    header section article img{
-      position: relative;
-        width:250px;
-        height: 350px;
-        transform: scale(1.0) ;
-        transition-delay: 0.5s;
-        transition-property: transform;
-        transition-duration: 2s;
-    }
-    header section article img:hover{
-        transform: scale(1.2) ;
-    } */
+   
     .peliculas{
      width: 90%;
      max-width: 1220px; 
@@ -153,13 +130,13 @@
       color:#000099;
       background-color: rgba(204, 204, 204, 0.7);
       padding: 30px 10px 10px 15px;
-      font-size: 14px;
-      font-family:Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-family:bold 90% monospace;
       transform: translateY(80px);
       
     }
      .text h2{
-      font-family:Adobe fan heiti std b;
+      font-family:bold 90% monospace;
        font-size: 22px;
        margin-bottom: 20px;
        color:#000000;
@@ -185,78 +162,96 @@
       text-align: left;
       font-family:Algerian;
       font-size: 14px;
-      color: #0000FF;
+      color: #5188E0;
       text-decoration: none;
     }
  /* ****** */
- .cpaccion>img {
-width: 1450px;
-height: 230px;
-float: left;
+ h1 {
+  background-color:#CCCCCC;
+  text-align: left;
+  padding: 22px ;
+  font-family:Algerian;
+  font-size: 46px;
+  color: #ffffff;
+  text-decoration: none;
   }
-    .cpaccionimagen:hover {
-    -webkit-transform: rotateY(180deg);
-    -webkit-transform-style: preserve-3d;
-    transform: rotateY(180deg);
-    transform-style: preserve-3d;}
-
-  
- .cpaccion>h4{
-    background:#CCCCCC;
-    text-align:center;
-    padding: 22px ;
-    font-family:Algerian;
-    font-size: 45px;
-    color: #0000FF;
-    text-decoration: none;
-    }
-  .des{
-    width: 1450px;
-    height: 50px;
-    background: #000099;
-    color: #ffffff;
-    font-family:stencil;
-    font-size: 20px;
-    text-align:left;
-    float: left;
-  }
-
-
-  .video-responsive{
+  .contenedor{
     position: relative;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    height: 10000%;
-    width: 500px;
-    padding-block-end: 20%;
-    }
-    .video-responsive iframe{
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    }
-    .video-responsive object,
-    .video-responsive embed {
+    display: inline-block;
+    text-align: center;
+    background-color:#6495ED;
+}
+ 
+  .texto{
     position: absolute;
-    }
+    top: 10px;
+    left: 10px;
     
-    
-    
-  .ext{
+}
+  .centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color:white;
+    font-family:Algerian;
+}
+  img{
     width: 1450px;
-    height: 70px;
-    background: #000099;
-    margin-top: 200px;
+    height: 160px;
+    opacity: 1; 
+}
+  img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.4;
+}
+  .des{
+    position: relative;
+    width: 1450px;
+    height: 40px;
+    background:#5188E0 ;
     color: #ffffff;
-    font-family:stencil;
-    font-size: 20px;
+    font-family:bold 90% monospace;
+    font-size: 18px;
     text-align:left;
-    float: left;
+    transform: translateY(-08%);
+    display: table;
   }
 
+
+  video{
+    position: relative;
+    top: 3px;
+    left: 0px;
+    width: 718px;
+    }
+    video:nth-child(3){
+      margin-left: 5px;
+    }
+   p{
+    position: relative;
+    top: 0;
+    color: white;
+   }
+  .ext{
+    position: relative;
+    width: 1450px;
+    height: 40px;
+    background:#5188E0;
+    color: #ffffff;
+    font-family:bold 20% monospace;
+    font-size: 18px;
+    text-align:left;
+    transform: translateY(-88%);
+    display: table;
+  }
+  p:nth-child(3){
+    position: relative;
+    top: 0;
+    color: white;
+  }
   
   
  
